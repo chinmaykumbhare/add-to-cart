@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+h1, h2, h3 {
+  margin: 0.5rem, 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col1 {
+  flex : 1;
+}
+
+.col2 {
+  flex: 2;
+}
+
+.block {
+  background-color: rgba(185, 168, 168, 0.219);
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.row.center {
+  align-items: center;
+}
+
+img.small {
+  max-height: 8rem;
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgba(185, 168, 168, 0.219);
+  padding: 10px;
+}
+
+button {
+  font-size: 1.1rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  cursor:grab;
+  width: 70%;
+  background-color: rgba(180, 177, 180, 0.925);
+}
+
+button.add {
+  background-color: #40f06c;
+  width: 1.5rem;
+}
+
+button.remove {
+  background-color: #f85757;
+  width: 1.5rem;
+}
+
+button.badge {
+  background-color: #f04040;
+  width: 1.5rem;
+}
+
+.text-right {
+  text-align: right;
+}

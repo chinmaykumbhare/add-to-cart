@@ -1,0 +1,10 @@
+{
+    "items": [
+        {"id":0, "name":"product 0", "price":50, "url":"https://picsum.photos/id/180/2400/1600"},
+        {"id":1, "name":"product 1", "price":100, "url":"https://picsum.photos/id/181/2400/1600"},
+        {"id":2, "name":"product 2", "price":200, "url":"https://picsum.photos/id/182/2400/1600"},
+        {"id":3, "name":"product 3", "price":300, "url":"https://picsum.photos/id/183/2400/1600"},
+        {"id":4, "name":"product 4", "price":400, "url":"https://picsum.photos/id/184/2400/1600"},
+        {"id":5, "name":"product 5", "price":500, "url":"https://picsum.photos/id/185/2400/1600"}
+    ]
+}
